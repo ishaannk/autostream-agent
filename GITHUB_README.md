@@ -23,7 +23,7 @@
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/ishaannk/autostream-agent.git
 cd autostream-agent
 
 # Install dependencies
