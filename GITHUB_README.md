@@ -167,7 +167,6 @@ async def whatsapp_webhook(Body: str = Form(...), From: str = Form(...)):
     return str(resp)
 ```
 
-See `DEPLOYMENT.md` for complete integration guide.
 
 ## 🧪 Testing
 
@@ -271,13 +270,6 @@ python -m pdb agent.py
 python -c "from agent import classify_intent; print(classify_intent('I want to buy'))"
 ```
 
-## 📚 Documentation
-
-- **README.md** - Quick start and overview (this file)
-- **ARCHITECTURE.md** - Deep technical dive with diagrams
-- **DEPLOYMENT.md** - Production deployment guide
-- **PROJECT_SUMMARY.md** - Complete feature overview
-
 ## 🤝 Contributing
 
 Contributions welcome! To extend:
@@ -294,32 +286,3 @@ Ideas for contributions:
 - UI/web interface
 - Analytics dashboard
 
-## 📄 License
-
-MIT License - see LICENSE file for details
-
-## 🎓 Learn More
-
-- [LangGraph Documentation](https://langchain-ai.github.io/langgraph/)
-- [Anthropic Claude API](https://docs.anthropic.com/)
-- [Twilio WhatsApp API](https://www.twilio.com/docs/whatsapp)
-
-## 🙋 Support
-
-For questions or issues:
-1. Check the documentation in `/docs`
-2. Review example conversations in tests
-3. Open an issue on GitHub
-
-## 🎉 Credits
-
-Built with:
-- [LangChain](https://github.com/langchain-ai/langchain) - Framework
-- [LangGraph](https://github.com/langchain-ai/langgraph) - State management
-- [Anthropic Claude](https://www.anthropic.com/) - Language model
-- [Twilio](https://www.twilio.com/) - WhatsApp integration
-
----
-
-<p align="center">Made with ❤️ for AutoStream</p>
-<p align="center">⭐ Star this repo if you find it useful!</p>
